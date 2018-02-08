@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Positioning</title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="" type="text/css">
+    <style type="text/css" media="screen">
+
+	.abs-t-r{
+		border: 5px solid red;
+		width: 200px;
+		height: 200px;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+/*		left: 0px;
+		bottom: 0px;*/
+	}
+	.rel-t-l{
+		border: 5px solid green;
+		width: 200px;
+		height: 200px;
+		position: relative;
+		top: 200px;
+		right: 100px;
+	}
+
+	.abs-in-rel{
+		border: 5px solid blue;
+		width: 200px;
+		height: 200px;
+		position: absolute;
+		top: 100px;
+		left: 500px;
+	}
+
+	.rel-wrapper{
+		width: 80vw;
+		height: 100vw;
+		border: 5px dotted purple;
+		position: relative;
+	}
+	
+	header{
+		background-color: black;
+		color: white;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 10px;
+
+	}
+
+	footer{
+		background-color: black;
+		color: white;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 10px;
+	}
+
+</style>
+
+</head>
+
+<body>
+	<header> <h1>I'm a header </h1></header>
+	<div class="abs-t-r">
+		<p> I am an absolutely positioned div. Absolut positioning defaults to the entire browser window.</p>
+	</div>
+	<div class="rel-t-l">
+		<p> I am a relatively positioned div. My positioning coordinates are based off of where I should have rendered by default.</p>
+	</div>
+		<!-- If you want to absolutely position inside another element of the page (based on its parents coordinates) you have to make the parent/container element position relative -->
+
+	<div class="rel-wrapper">
+		<div class="abs-in-rel">
+			<p>
+				I am an absolutely positioned div inside a relatively positioned parent div. I will position my 0,0 based on the parent coordinates, not the browser window
+			</p>
+		</div>
+	</div>
+	<footer><h2> I'm a footer </h2></footer>
+</body>
+
+</html>
