@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+/* font-family: 'Kaushan Script', cursive; */
+
+html,
+body {
+  margin: 0;
+
+}
+
+html {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.about {
+  position: relative;
+  width: 240px;
+  display: inline-block;
+  margin: 20px;
+  margin-top: 20px;
+}
+
+.about img {
+  width: 100%;
+  height: auto;
+  border: 10px solid #ccc;
+  /* border-bottom: 45px solid #ccc; */
+  border-bottom-width: 45px;
+  /* x | y | blur | spread | color */
+/*  -webkit-box-shadow: 3px 3px 10px 3px rgba(10,10,10, 0.5);
+  -moz-box-shadow: 3px 3px 10px 3px rgba(10,10,10, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(10,10,10, 0.5);*/
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.photos {
+  position: relative;
+  width: 240px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.photos img {
+  width: 100%;
+  height: auto;
+  border: 10px solid #ccc;
+  /* border-bottom: 45px solid #ccc; */
+  border-bottom-width: 75px;
+  /* x | y | blur | spread | color */
+/*  -webkit-box-shadow: 3px 3px 10px 3px rgba(10,10,10, 0.5);
+  -moz-box-shadow: 3px 3px 10px 3px rgba(10,10,10, 0.5);
+  box-shadow: 3px 3px 10px 3px rgba(10,10,10, 0.5);*/
+}
+
+.photos p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  color: #333;
+  font-family: 'Poppins', cursive;
+}
+
+body h2 {
+  display: inline-block;
+  color: #333;
+  font-family: 'Poppins';
+  position: relative;
+  margin-left: 290px;
+  margin-top: 120px;
+}
+
+.text p {
+  /*display: inline-block;*/
+  color: #333;
+  font-family: 'Poppins';
+  position: relative;
+  margin-left: 290px;
+  margin-top: 10px;
+}
+
+/* Navbar */
+
+header a{
+  text-decoration: none;
+  color: #333;
+}
+
+header {
+  width: 60%;
+  padding: 0 20%;
+  height: 50px;
+  /*position: fixed;*/
+  background: url(../img/cheap_diagonal_fabric.png);
+  z-index: 10;
+}
+
+header h1 {
+  display: inline-block;
+  color: #333;
+  font-family: 'Poppins', cursive;
+  position: center;
+  margin-left: 250px;
+  padding: 0;
+}
+
+nav {
+  float: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(40,40,40, 0.1);
+}
+
+nav li {
+  font-family: 'Poppins', cursive;
+  height: 50px;
+  line-height: 50px;
+  width: 200px;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  display: block;
+  text-align: center;
+  transition: all 1s;
+}
+
+nav a:hover {
+  background-color: rgba(10,10,10, 0.5);
+  color: white;
+}
