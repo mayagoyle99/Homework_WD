@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Adding to the DOM</title>
+</head>
+<!-- <body onload="sumValues(8346,987583);"> -->
+<body>
+
+	<button onclicl="addSingleP();">Add single paragraph the BAD way</button>
+	<button onclick="addMultiP(8);">Add 8 paragraph the GOOD way</button>
+	<h1 id="count"></h1>
+	<div id="content">
+	</div>
+
+	<script type="text/javascript">
+		//declare our global vars at the top
+		var content;
+		content = document.getElementById('content');
+		console.log(content);
+
+		//lazy bad dom creation
+		function addSingleP() {
+			//user innerHTML to add a string with p tags in it
+			content.innerHTML = '<p>This is a single paragraph that will overwrite the contetns of the div</p>';
+		}
+
+		//proper dom creation
+		function addMultiP(num){
+			//start out loop using our num parameter
+			for (var i=0; i<num; i++){
+				console.log(i);
+				//create a paragraph element 
+				var p = document.createElement('P');
+				//create a text node
+				var text = document.createTextNode('This is paragraph number ' + i);
+				//add a text node to the p element 
+				p.appendChild(text);
+				//add the p element to the page
+				content.appendChild(p);
+			}
+		}
+
+	var counter = 0;
+	function incrementCounter (){
+		var element = document.getElementById('count');
+		element.innerHTML = counter;
+		counter+=5;
+	}
+
+	window.setInterval(incrementCounter, 500)
+
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
