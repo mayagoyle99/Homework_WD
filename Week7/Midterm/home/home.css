@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+/* font-family: 'Kaushan Script', cursive; */
+
+html,
+body {
+  margin: 0;
+
+}
+
+html {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* Navbar */
+
+header {
+  width: 80%;
+  padding: 0 10%;
+  height: 50px;
+  position: fixed;
+  background: url(../img/cheap_diagonal_fabric.png);
+  z-index: 10;
+}
+
+header h1 {
+  display: inline-block;
+  color: #333;
+  font-family: 'Poppins', cursive;
+  position: center;
+  margin-left: 400px;
+  padding: 0;
+}
+
+nav {
+  float: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(40,40,40, 0.1);
+}
+
+nav li {
+  font-family: 'Poppins', cursive;
+  height: 50px;
+  line-height: 50px;
+  width: 150px;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  display: block;
+  text-align: center;
+  transition: all 1s;
+}
+
+nav a:hover {
+  background-color: rgba(10,10,10, 0.5);
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
