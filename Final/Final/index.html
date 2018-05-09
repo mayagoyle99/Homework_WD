@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+
+
+                });
+            } // End if
+        });
+    });
+    </script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Maya Goyle, Digital Media</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <script src="script.js" type="text/javascript"></script>
+
+    <style>
+    @import url('http://weloveiconfonts.com/api/?family=entypo');
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+  <div id="particles"></div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <div class="intro">
+
+        <div class="smallspacer"></div>
+        <h1 class="welcome">
+            Hello, I am a digital media student located in Brooklyn. Welcome to my site!
+        </h1>
+
+    </div>
+
+    <ul class="mobile_menu">
+        <li><a href="#abtloc">About me</a></li>
+        <li><a href="#weloc">Work Experience</a></li>
+ -->        <li><a href="#skloc">Skills</a></li>
+        <li><a href="#eduloc">Education</a></li>
+        <li><a href="#conloc">Contact</a></li>
+    </ul>
+
+    <div class="show-menu">
+        Menu
+    </div>
+    <ul class="topnav" id="myTopnav">
+        <li class="topnavStuff"><a href="#abtloc">About me</a></li>
+        <li class="topnavStuff"><a href="#weloc">Work Experience</a></li>
+ -->        <li class="topnavStuff"><a href="#skloc">Skills</a></li>
+        <li class="topnavStuff"><a href="#eduloc">Education</a></li>
+        <li class="topnavStuff"><a href="#conloc">Contact</a></li>
+    </ul>
+
+    <div id="abtloc">
+        <h2 class="abt">
+            About me
+        </h2>
+    </div>
+    <div class="move">
+        <p style="text-align:center;">
+            <img align="middle" class="pic" src="images/mayaNew.jpg" style=
+            "width:304px;height:300px;">
+        </p>
+
+        <div class="aboutmePara">
+            My name is Maya Goyle and I'm a current IDM Freshman at the NYU Tandon School of Engineering. I'm from the Bay Area in California and I've lived there my whole life. My two favorite places on earth are California and New York, so I'm pretty lucky.        </div>
+    </div>
+
+    <div id="weloc">
+        <h2 class="we">
+            Work Experience
+        </h2>
+    </div>
+
+    <div class="wewrapper">
+        <div class="we1">
+            <strong> Facebook; Corporate Headquarters</strong>
+            <i>Palo Alto, California </i>
+            (June 2018 – August 2018)<br>
+
+            <i>TAP Intern</i> - Software Engineering Summer Internship.<br>
+            &emsp;&emsp;•	Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh.
+            <br>
+            &emsp;&emsp;•	Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices.<br>
+            <br>
+
+            <strong> Goldman Sachs; Corporate Center</strong>
+            <i>New York, New York </i>
+            (May 2017 – August 2017)<br>
+
+            <i>Information Technology Intern</i> - reporting to the Chief Executive Officer.<br>
+            &emsp;&emsp;•	Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br>
+
+            <br>
+
+            <strong> Harvard University; Biomedical Informatics Department</strong>
+            <i>Boston, Massachusetts </i>
+            (May 2016 – Current)<br>
+
+            <i>Student Assistant Researcher</i> - Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem.<br>
+            &emsp;<b> Medicine Research Project</b> -  Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices.<br>
+            &emsp;&emsp;•	Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante.<br>
+            &emsp;&emsp;•	Aenean laoreet. Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede.<br>
+
+            &emsp;<b> Clinical Research Project </b> -  Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem.<br>
+            &emsp;&emsp;•	Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. <br>
+            &emsp;&emsp;•	Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci.
+        </div>
+    </div>
+
+    <div class="spacer"></div>
+
+
+                    <script src="mixitup.min.js"></script>
+                    <script type="text/javascript">
+                    var mixer = mixitup('.container');
+                    var mixer = mixitup(containerEl);
+                    var mixer = mixitup(containerEl, {
+                        selectors: {
+                            target: '.blog-item'
+                        },
+                        animation: {
+                            duration: 300
+                        }
+                    });
+                    </script>
+                    <div class="clear"></div>
+                    <div id="skloc">
+                        <h2 class="sk">
+                            Skills
+                        </h2>
+                    </div>
+                    <p class="ibnlt">
+                        Including but not limited to...
+                    </p>
+
+                    <div id="codeconSkills">
+                        <div class="codeconSkillbar">
+                            <div id="codeconHTML">
+                                <span class="codeconSkillArea">HTML</span> <span class=
+                                "PercentText">95%</span>
+                            </div>
+                        </div>
+
+                        <div class="codeconSkillbar">
+                            <div id="codeconCSS">
+                                <span class="codeconSkillArea">CSS</span> <span class=
+                                "PercentText">70%</span>
+                            </div>
+                        </div>
+
+                        <div class="codeconSkillbar">
+                            <div id="codeconjQuery">
+                                <span class="codeconSkillArea">JavaScript</span> <span class=
+                                "PercentText">60%</span>
+                            </div>
+                        </div>
+
+                        <div class="codeconSkillbar">
+                            <div id="codeconMatlab">
+                                <span class="codeconSkillArea">Premiere Pro</span> <span class=
+                                "PercentText">55%</span>
+                            </div>
+                        </div>
+
+                        <div class="codeconSkillbar">
+                            <div id="codeconPython">
+                                <span class="codeconSkillArea">Illustrator</span> <span class=
+                                "PercentText">70%</span>
+                            </div>
+                        </div>
+
+                        <div class="codeconSkillbar">
+                            <div id="codeconJava">
+                                <span class="codeconSkillArea">Photoshop</span> <span class=
+                                "PercentText">80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="eduloc">
+                        <h2 class="edu">
+                            Education
+                        </h2>
+                    </div>
+
+                    <div id="eduWrap">
+                        <div class="edu1">
+                            <strong><u class="nyulink"><a href="https://www.nyu.edu/">New York University</a></u></strong><br>
+                            <i>New York, New York 43210</i><br>
+                            Graduating May 2021, Class: 2021<br>
+                            Major: Integrated Digital
+                        </div>
+
+                        <div class="edu1">
+                            <strong><u class="csuslink"><a href="https://www.csus.org/page/">Crystal Springs Uplands School<a/></u></strong><br>
+                                <i>Hillsborough, CA</i><br>
+                                Graduated, Class: 2017<br>
+                            </div>
+                        </div>
+
+                        <div id="conloc">
+                            <h2 class="Con">
+                                Contact
+                            </h2>
+                        </div>
+
+                        <h2 class="em">
+                            Want to chat? Send me an email using this form or just contact me at
+                            mayagoyle99@gmail.com
+                        </h2>
+
+                        <form action="mailto:mayagoyle99@gmail.com" enctype="text/plain" method="post">
+                            <input type="text" name="name" placeholder="Name" class="name" required />
+                            <input type="email" name="emailaddress" placeholder="Email" class="email" type="email" required />
+                            <textarea type="text" rows="4" name="Message" placeholder="Message" class="message" required></textarea>
+                            <button class="res" type="reset" value="Reset">Reset</button>
+                            <input name="submit" class="butn" type="submit" value="»" />
+                        </form>
+
+                        <h2 class="fm">
+                            Follow Me!
+                        </h2>
+
+                        <div class="form social-icons">
+                            <a href="https://twitter.com/mayagoyle">
+                                <div class="box" id="Twitter">
+                                    &#62217;
+                                </div>
+                            </a>
+                            <a href="https://www.facebook.com/mayagoyle">
+                                <div class="box" id="Facebook">
+                                    &#62220;
+                                </div>
+                            </a>
+                            <a href="https://instagram.com/mayagoyle">
+                                <div class="box" id="Instagram">
+                                    &#62253;
+                                </div>
+                            </a>
+                            <a href="https://github.com/mayagoyle99">
+                                <div class="box" id="Github">
+                                    &#62208;
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <script type="text/javascript">
+                        var _mfq = _mfq || [];
+                        (function() {
+                            var mf = document.createElement("script");
+                            mf.type = "text/javascript"; mf.async = true;
+                            mf.src = "//cdn.mouseflow.com/projects/cb6bb92d-97a4-41b2-b808-a73ee0f0ecc4.js";
+                            document.getElementsByTagName("head")[0].appendChild(mf);
+                        })();
+                        </script>
+                        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+                        <script src="js/particles.js"></script>
+                    </body>
+                    </html>
